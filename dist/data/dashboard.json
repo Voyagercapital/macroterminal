@@ -1,0 +1,260 @@
+{
+  "last_updated_utc": "2026-01-01T08:57:32.940944Z",
+  "risk_state": {
+    "score": 50,
+    "label": "Neutral",
+    "drivers": [
+      {
+        "name": "Fed Funds",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "FEDFUNDS"
+      },
+      {
+        "name": "Global EPU",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "GEPUCURRENT"
+      },
+      {
+        "name": "Initial Claims",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "ICSA"
+      },
+      {
+        "name": "NZ 90d Bill",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "rbnz_xlsx",
+        "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b2/hb2-daily-close.xlsx"
+      },
+      {
+        "name": "NZ TWI",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "rbnz_xlsx",
+        "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx"
+      },
+      {
+        "name": "US 10Y",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "DGS10"
+      },
+      {
+        "name": "US 10s2s",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "T10Y2Y"
+      },
+      {
+        "name": "US 2Y",
+        "value": null,
+        "delta": null,
+        "z": null,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "DGS2"
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "global",
+      "name": "Global",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Risk",
+          "items": [
+            {
+              "name": "VIX",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "VIXCLS"
+            }
+          ]
+        },
+        {
+          "title": "Credit",
+          "items": [
+            {
+              "name": "US HY OAS",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "BAMLH0A0HYM2"
+            }
+          ]
+        },
+        {
+          "title": "Geopolitics",
+          "items": [
+            {
+              "name": "Global EPU",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "GEPUCURRENT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nz",
+      "name": "NZ",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "FX",
+          "items": [
+            {
+              "name": "NZ TWI",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "rbnz_xlsx",
+              "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx"
+            }
+          ]
+        },
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "NZ 90d Bill",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "rbnz_xlsx",
+              "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b2/hb2-daily-close.xlsx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "name": "US",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "US 10Y",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "DGS10"
+            },
+            {
+              "name": "US 2Y",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "DGS2"
+            },
+            {
+              "name": "US 10s2s",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "T10Y2Y"
+            }
+          ]
+        },
+        {
+          "title": "Growth",
+          "items": [
+            {
+              "name": "Initial Claims",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "ICSA"
+            }
+          ]
+        },
+        {
+          "title": "Inflation",
+          "items": [
+            {
+              "name": "US CPI",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "CPIAUCSL"
+            }
+          ]
+        },
+        {
+          "title": "Policy",
+          "items": [
+            {
+              "name": "Fed Funds",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "FEDFUNDS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

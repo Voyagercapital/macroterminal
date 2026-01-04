@@ -1,0 +1,211 @@
+{
+  "drivers": [
+    {
+      "source": "fred",
+      "series_id": "VIXCLS",
+      "name": "VIX",
+      "region": "Global",
+      "block": "Risk",
+      "units": "index",
+      "high_is_risk_off": true,
+      "weight": 2
+    },
+    {
+      "source": "fred",
+      "series_id": "BAMLH0A0HYM2",
+      "name": "US HY OAS",
+      "region": "Global",
+      "block": "Credit",
+      "units": "pct",
+      "high_is_risk_off": true,
+      "weight": 2
+    },
+    {
+      "source": "fred",
+      "series_id": "DGS10",
+      "name": "US 10Y",
+      "region": "US",
+      "block": "Rates",
+      "units": "pct",
+      "high_is_risk_off": false,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "DGS2",
+      "name": "US 2Y",
+      "region": "US",
+      "block": "Rates",
+      "units": "pct",
+      "high_is_risk_off": false,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "T10Y2Y",
+      "name": "US 10s2s",
+      "region": "US",
+      "block": "Rates",
+      "units": "pct",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "ICSA",
+      "name": "Initial Claims",
+      "region": "US",
+      "block": "Growth",
+      "units": "level",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "CPIAUCSL",
+      "name": "US CPI",
+      "region": "US",
+      "block": "Inflation",
+      "units": "index",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "FEDFUNDS",
+      "name": "Fed Funds",
+      "region": "US",
+      "block": "Policy",
+      "units": "pct",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "GEPUCURRENT",
+      "name": "Global EPU",
+      "region": "Global",
+      "block": "Geopolitics",
+      "units": "index",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "rbnz_xlsx",
+      "url": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx",
+      "sheet": 0,
+      "date_col": "Date",
+      "value_col": "TWI",
+      "name": "NZ TWI",
+      "region": "NZ",
+      "block": "FX",
+      "units": "index",
+      "high_is_risk_off": false,
+      "weight": 1
+    },
+    {
+      "source": "rbnz_xlsx",
+      "url": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b2/hb2-daily-close.xlsx",
+      "sheet": 0,
+      "date_col": "Date",
+      "value_col": "90 day bank bill",
+      "name": "NZ 90d Bill",
+      "region": "NZ",
+      "block": "Rates",
+      "units": "pct",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01AUM156N",
+      "name": "AU 10Y Gov Yield",
+      "region": "AUS",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01JPM156N",
+      "name": "JP 10Y Gov Yield",
+      "region": "JPN",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01EZM156N",
+      "name": "EA 10Y Gov Yield",
+      "region": "EUR",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "INDIRLTLT01STM",
+      "name": "IN 10Y Gov Yield",
+      "region": "IND",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IR3TTS01CNM156N",
+      "name": "CN 3M Tsy Yield",
+      "region": "CHN",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01PLM156N",
+      "name": "PL 10Y Gov Yield",
+      "region": "EAST",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01CZM156N",
+      "name": "CZ 10Y Gov Yield",
+      "region": "EAST",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    },
+    {
+      "source": "fred",
+      "series_id": "IRLTLT01HUM156N",
+      "name": "HU 10Y Gov Yield",
+      "region": "EAST",
+      "block": "Rates",
+      "units": "%",
+      "high_is_risk_off": true,
+      "weight": 1
+    }
+  ],
+  "acled": {
+    "enabled": true,
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "Israel",
+      "Palestine",
+      "Taiwan"
+    ],
+    "lookback_days": 7
+  }
+}
