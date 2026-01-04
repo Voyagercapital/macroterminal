@@ -1,84 +1,202 @@
 {
-  "last_updated_utc": "2026-01-01T08:57:32.940944Z",
+  "last_updated_utc": "2026-01-04T20:59:12.887126Z",
   "risk_state": {
-    "score": 50,
+    "score": 53,
     "label": "Neutral",
     "drivers": [
       {
-        "name": "Fed Funds",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
-        "source": "fred",
-        "id": "FEDFUNDS"
-      },
-      {
         "name": "Global EPU",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
+        "value": 389.43,
+        "delta": 77.8986,
+        "z": 2.4707,
+        "signal": "red",
         "source": "fred",
         "id": "GEPUCURRENT"
       },
       {
-        "name": "Initial Claims",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
+        "name": "JP 10Y Gov Yield",
+        "value": 1.805,
+        "delta": 0.15,
+        "z": 1.7287,
+        "signal": "red",
         "source": "fred",
-        "id": "ICSA"
-      },
-      {
-        "name": "NZ 90d Bill",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
-        "source": "rbnz_xlsx",
-        "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b2/hb2-daily-close.xlsx"
-      },
-      {
-        "name": "NZ TWI",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
-        "source": "rbnz_xlsx",
-        "id": "https://rbnz.govt.nz/-/media/project/sites/rbnz/files/statistics/series/b/b1/hb1-daily.xlsx"
-      },
-      {
-        "name": "US 10Y",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
-        "source": "fred",
-        "id": "DGS10"
-      },
-      {
-        "name": "US 10s2s",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
-        "source": "fred",
-        "id": "T10Y2Y"
+        "id": "IRLTLT01JPM156N"
       },
       {
         "name": "US 2Y",
-        "value": null,
-        "delta": null,
-        "z": null,
-        "signal": "neutral",
+        "value": 5.99,
+        "delta": -0.03,
+        "z": -2.248,
+        "signal": "red",
         "source": "fred",
         "id": "DGS2"
+      },
+      {
+        "name": "US CPI",
+        "value": 325.031,
+        "delta": 0.663,
+        "z": 2.2598,
+        "signal": "red",
+        "source": "fred",
+        "id": "CPIAUCSL"
+      },
+      {
+        "name": "CZ 10Y Gov Yield",
+        "value": 4.609,
+        "delta": 0.1508,
+        "z": 1.1598,
+        "signal": "amber",
+        "source": "fred",
+        "id": "IRLTLT01CZM156N"
+      },
+      {
+        "name": "Fed Funds",
+        "value": 3.72,
+        "delta": -0.16,
+        "z": 0.972,
+        "signal": "amber",
+        "source": "fred",
+        "id": "FEDFUNDS"
+      },
+      {
+        "name": "HU 10Y Gov Yield",
+        "value": 6.97,
+        "delta": 0.18,
+        "z": 0.5481,
+        "signal": "amber",
+        "source": "fred",
+        "id": "IRLTLT01HUM156N"
+      },
+      {
+        "name": "PL 10Y Gov Yield",
+        "value": 5.28,
+        "delta": -0.12,
+        "z": 0.532,
+        "signal": "amber",
+        "source": "fred",
+        "id": "IRLTLT01PLM156N"
       }
     ]
   },
   "regions": [
+    {
+      "id": "aus",
+      "name": "AUS",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "AU 10Y Gov Yield",
+              "value": 4.42,
+              "delta": 0.186,
+              "z": 0.4391,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "IRLTLT01AUM156N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chn",
+      "name": "CHN",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "CN 3M Tsy Yield",
+              "value": 2.88,
+              "delta": 0.15,
+              "z": -0.4365,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "IR3TTS01CNM156N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "name": "EAST",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "PL 10Y Gov Yield",
+              "value": 5.28,
+              "delta": -0.12,
+              "z": 0.532,
+              "signal": "amber",
+              "source": "fred",
+              "id": "IRLTLT01PLM156N"
+            },
+            {
+              "name": "CZ 10Y Gov Yield",
+              "value": 4.609,
+              "delta": 0.1508,
+              "z": 1.1598,
+              "signal": "amber",
+              "source": "fred",
+              "id": "IRLTLT01CZM156N"
+            },
+            {
+              "name": "HU 10Y Gov Yield",
+              "value": 6.97,
+              "delta": 0.18,
+              "z": 0.5481,
+              "signal": "amber",
+              "source": "fred",
+              "id": "IRLTLT01HUM156N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eur",
+      "name": "EUR",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "EA 10Y Gov Yield",
+              "value": 3.1361,
+              "delta": 0.0122,
+              "z": 0.4121,
+              "signal": "neutral",
+              "source": "fred",
+              "id": "IRLTLT01EZM156N"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "global",
       "name": "Global",
@@ -93,9 +211,9 @@
           "items": [
             {
               "name": "VIX",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 15.12,
+              "delta": -0.19,
+              "z": 0.3619,
               "signal": "neutral",
               "source": "fred",
               "id": "VIXCLS"
@@ -107,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 6.2,
+              "delta": -0.06,
+              "z": -0.1243,
               "signal": "neutral",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -121,12 +239,62 @@
           "items": [
             {
               "name": "Global EPU",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 389.43,
+              "delta": 77.8986,
+              "z": 2.4707,
+              "signal": "red",
               "source": "fred",
               "id": "GEPUCURRENT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ind",
+      "name": "IND",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "IN 10Y Gov Yield",
+              "value": 6.54,
+              "delta": 0.06,
+              "z": -0.9911,
+              "signal": "green",
+              "source": "fred",
+              "id": "INDIRLTLT01STM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jpn",
+      "name": "JPN",
+      "verdict": {
+        "cycle": "Mixed",
+        "inflation": "Mixed",
+        "financial": "Mixed"
+      },
+      "blocks": [
+        {
+          "title": "Rates",
+          "items": [
+            {
+              "name": "JP 10Y Gov Yield",
+              "value": 1.805,
+              "delta": 0.15,
+              "z": 1.7287,
+              "signal": "red",
+              "source": "fred",
+              "id": "IRLTLT01JPM156N"
             }
           ]
         }
@@ -185,28 +353,28 @@
           "items": [
             {
               "name": "US 10Y",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 7.45,
+              "delta": 0.0,
+              "z": -0.1568,
               "signal": "neutral",
               "source": "fred",
               "id": "DGS10"
             },
             {
               "name": "US 2Y",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 5.99,
+              "delta": -0.03,
+              "z": -2.248,
+              "signal": "red",
               "source": "fred",
               "id": "DGS2"
             },
             {
               "name": "US 10s2s",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 1.48,
+              "delta": 0.01,
+              "z": 1.4388,
+              "signal": "amber",
               "source": "fred",
               "id": "T10Y2Y"
             }
@@ -217,10 +385,10 @@
           "items": [
             {
               "name": "Initial Claims",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 199000.0,
+              "delta": -16000.0,
+              "z": -0.5959,
+              "signal": "green",
               "source": "fred",
               "id": "ICSA"
             }
@@ -231,10 +399,10 @@
           "items": [
             {
               "name": "US CPI",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 325.031,
+              "delta": 0.663,
+              "z": 2.2598,
+              "signal": "red",
               "source": "fred",
               "id": "CPIAUCSL"
             }
@@ -245,10 +413,10 @@
           "items": [
             {
               "name": "Fed Funds",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 3.72,
+              "delta": -0.16,
+              "z": 0.972,
+              "signal": "amber",
               "source": "fred",
               "id": "FEDFUNDS"
             }
