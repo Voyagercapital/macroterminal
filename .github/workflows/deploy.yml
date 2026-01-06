@@ -30,6 +30,16 @@ jobs:
         run: |
           npm cache clean --force
           npm install --no-audit --no-fund
+            - name: Repair executable permissions (vite/esbuild)
+      - run: |
+          # Ensure node_modules shims are executable
+          chmod -R +x node_modules/.bin || true
+
+          # Ensure esbuild binary is executable (Linux runner)
+          chmod +x node_modules/@esbuild/linux-x64/bin/esbuild || true
+
+          # Rebuild esbuild in case npm extracted it oddly
+          npm rebuild esbuild --no-audit --no-fund || true
 
       - name: Build
         run: npm run build
