@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,23 +27,26 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install (clean)
+      - name: Install
+        shell: bash
         run: |
+          set -euo pipefail
           npm cache clean --force
           npm install --no-audit --no-fund
-            - name: Repair executable permissions (vite/esbuild)
-      - run: |
-          # Ensure node_modules shims are executable
+
+      - name: Repair executable permissions (vite/esbuild)
+        shell: bash
+        run: |
+          set -euo pipefail
           chmod -R +x node_modules/.bin || true
-
-          # Ensure esbuild binary is executable (Linux runner)
           chmod +x node_modules/@esbuild/linux-x64/bin/esbuild || true
-
-          # Rebuild esbuild in case npm extracted it oddly
           npm rebuild esbuild --no-audit --no-fund || true
 
       - name: Build
-        run: npm run build
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -58,6 +62,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
