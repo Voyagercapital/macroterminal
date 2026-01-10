@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      CI: "true"
+      NPM_CONFIG_AUDIT: "false"
+      NPM_CONFIG_FUND: "false"
 
     steps:
       - name: Checkout
@@ -27,20 +31,63 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install
+      # Pin npm to reduce "Exit handler never called!" flakiness
+      - name: Pin npm
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf node_modules
-          npm cache clean --force
-          npm install --no-audit --no-fund
+          npm --version
+          npm install -g npm@10.9.2
+          npm --version
 
+      # Clean + deterministic install with retries
+      - name: Install dependencies (clean + retry)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # In case node_modules/dist are committed or left around, remove them
+          rm -rf node_modules dist
+
+          # Try up to 3 times (npm can flake on GitHub runners)
+          for attempt in 1 2 3; do
+            echo "Install attempt ${attempt}/3"
+            npm cache clean --force || true
+
+            # Deterministic install from package-lock.json
+            if npm ci --include=dev --no-audit --no-fund; then
+              break
+            fi
+
+            echo "npm ci failed; retrying..."
+            rm -rf node_modules
+            sleep 5
+          done
+
+          # Hard fail early if install didn't produce node_modules
+          test -d node_modules || (echo "ERROR: node_modules not created. Install failed." && exit 1)
+
+          # Sanity checks that catch the 'vite/client' / broken TS issue early
+          node -e "require('vite'); console.log('vite ok')"
+          node -e "require('typescript'); console.log('typescript ok')"
+
+      # Fix EACCES issues for vite/esbuild on some runner states
       - name: Repair executable permissions (vite/esbuild)
         shell: bash
         run: |
           set -euo pipefail
-          chmod -R +x node_modules/.bin || true
-          chmod +x node_modules/@esbuild/linux-x64/bin/esbuild || true
+
+          # Make all shim scripts executable (safe even if already OK)
+          if [ -d node_modules/.bin ]; then
+            chmod -R +x node_modules/.bin || true
+          fi
+
+          # Ensure esbuild binary is executable (only if present)
+          if [ -f node_modules/@esbuild/linux-x64/bin/esbuild ]; then
+            chmod +x node_modules/@esbuild/linux-x64/bin/esbuild || true
+          fi
+
+          # Rebuild esbuild (safe no-op if already correct)
           npm rebuild esbuild --no-audit --no-fund || true
 
       - name: Build
