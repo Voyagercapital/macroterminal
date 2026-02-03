@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-02-01T18:52:23.216736Z",
+  "last_updated_utc": "2026-02-03T19:10:45.392238Z",
   "risk_state": {
     "score": 53,
     "label": "Neutral",
@@ -60,9 +60,9 @@
       },
       {
         "name": "Fed Funds",
-        "value": 3.72,
-        "delta": -0.16,
-        "z": 0.972,
+        "value": 3.64,
+        "delta": -0.08,
+        "z": 0.9271,
         "signal": "amber",
         "source": "fred",
         "id": "FEDFUNDS"
@@ -413,9 +413,9 @@
           "items": [
             {
               "name": "Fed Funds",
-              "value": 3.72,
-              "delta": -0.16,
-              "z": 0.972,
+              "value": 3.64,
+              "delta": -0.08,
+              "z": 0.9271,
               "signal": "amber",
               "source": "fred",
               "id": "FEDFUNDS"
