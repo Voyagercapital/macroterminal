@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-02-12T19:17:39.281824Z",
+  "last_updated_utc": "2026-02-13T19:06:38.736173Z",
   "risk_state": {
     "score": 54,
     "label": "Neutral",
@@ -33,9 +33,9 @@
       },
       {
         "name": "US CPI",
-        "value": 326.03,
-        "delta": 0.999,
-        "z": 2.26,
+        "value": 326.588,
+        "delta": 0.557,
+        "z": 2.2481,
         "signal": "red",
         "source": "fred",
         "id": "CPIAUCSL"
@@ -399,9 +399,9 @@
           "items": [
             {
               "name": "US CPI",
-              "value": 326.03,
-              "delta": 0.999,
-              "z": 2.26,
+              "value": 326.588,
+              "delta": 0.557,
+              "z": 2.2481,
               "signal": "red",
               "source": "fred",
               "id": "CPIAUCSL"
