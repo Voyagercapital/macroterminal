@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-02-16T19:00:29.811462Z",
+  "last_updated_utc": "2026-02-17T19:12:50.638956Z",
   "risk_state": {
-    "score": 54,
+    "score": 53,
     "label": "Neutral",
     "drivers": [
       {
@@ -15,9 +15,9 @@
       },
       {
         "name": "JP 10Y Gov Yield",
-        "value": 2.06,
-        "delta": 0.255,
-        "z": 2.1218,
+        "value": 2.24,
+        "delta": 0.18,
+        "z": 2.3813,
         "signal": "red",
         "source": "fred",
         "id": "IRLTLT01JPM156N"
@@ -42,18 +42,18 @@
       },
       {
         "name": "AU 10Y Gov Yield",
-        "value": 4.719,
-        "delta": 0.303,
-        "z": 0.6384,
+        "value": 4.74,
+        "delta": 0.021,
+        "z": 0.6546,
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01AUM156N"
       },
       {
         "name": "CZ 10Y Gov Yield",
-        "value": 4.6478,
-        "delta": 0.0389,
-        "z": 1.1831,
+        "value": 4.4599,
+        "delta": -0.188,
+        "z": 1.0534,
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01CZM156N"
@@ -68,13 +68,13 @@
         "id": "FEDFUNDS"
       },
       {
-        "name": "HU 10Y Gov Yield",
-        "value": 6.89,
-        "delta": -0.08,
-        "z": 0.5142,
+        "name": "US 10s2s",
+        "value": 1.48,
+        "delta": 0.01,
+        "z": 1.4388,
         "signal": "amber",
         "source": "fred",
-        "id": "IRLTLT01HUM156N"
+        "id": "T10Y2Y"
       }
     ]
   },
@@ -93,9 +93,9 @@
           "items": [
             {
               "name": "AU 10Y Gov Yield",
-              "value": 4.719,
-              "delta": 0.303,
-              "z": 0.6384,
+              "value": 4.74,
+              "delta": 0.021,
+              "z": 0.6546,
               "signal": "amber",
               "source": "fred",
               "id": "IRLTLT01AUM156N"
@@ -143,28 +143,28 @@
           "items": [
             {
               "name": "PL 10Y Gov Yield",
-              "value": 5.21,
-              "delta": -0.07,
-              "z": 0.4897,
+              "value": 5.1,
+              "delta": -0.11,
+              "z": 0.4218,
               "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01PLM156N"
             },
             {
               "name": "CZ 10Y Gov Yield",
-              "value": 4.6478,
-              "delta": 0.0389,
-              "z": 1.1831,
+              "value": 4.4599,
+              "delta": -0.188,
+              "z": 1.0534,
               "signal": "amber",
               "source": "fred",
               "id": "IRLTLT01CZM156N"
             },
             {
               "name": "HU 10Y Gov Yield",
-              "value": 6.89,
-              "delta": -0.08,
-              "z": 0.5142,
-              "signal": "amber",
+              "value": 6.67,
+              "delta": -0.22,
+              "z": 0.4186,
+              "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01HUM156N"
             }
@@ -186,9 +186,9 @@
           "items": [
             {
               "name": "EA 10Y Gov Yield",
-              "value": 3.2447,
-              "delta": 0.1084,
-              "z": 0.4901,
+              "value": 3.221,
+              "delta": -0.0237,
+              "z": 0.4749,
               "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01EZM156N"
@@ -264,9 +264,9 @@
           "items": [
             {
               "name": "IN 10Y Gov Yield",
-              "value": 6.63,
-              "delta": 0.09,
-              "z": -0.8679,
+              "value": 6.73,
+              "delta": 0.1,
+              "z": -0.7326,
               "signal": "green",
               "source": "fred",
               "id": "INDIRLTLT01STM"
@@ -289,9 +289,9 @@
           "items": [
             {
               "name": "JP 10Y Gov Yield",
-              "value": 2.06,
-              "delta": 0.255,
-              "z": 2.1218,
+              "value": 2.24,
+              "delta": 0.18,
+              "z": 2.3813,
               "signal": "red",
               "source": "fred",
               "id": "IRLTLT01JPM156N"
