@@ -1,14 +1,14 @@
 {
-  "last_updated_utc": "2026-03-05T19:34:26.916494Z",
+  "last_updated_utc": "2026-03-06T19:01:24.598875Z",
   "risk_state": {
     "score": 53,
     "label": "Neutral",
     "drivers": [
       {
         "name": "Global EPU",
-        "value": 389.43,
-        "delta": 77.8986,
-        "z": 2.4707,
+        "value": 371.0954,
+        "delta": -33.7777,
+        "z": 2.2823,
         "signal": "red",
         "source": "fred",
         "id": "GEPUCURRENT"
@@ -239,9 +239,9 @@
           "items": [
             {
               "name": "Global EPU",
-              "value": 389.43,
-              "delta": 77.8986,
-              "z": 2.4707,
+              "value": 371.0954,
+              "delta": -33.7777,
+              "z": 2.2823,
               "signal": "red",
               "source": "fred",
               "id": "GEPUCURRENT"
