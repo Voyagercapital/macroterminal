@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-04-08T19:38:13.215171Z",
+  "last_updated_utc": "2026-04-09T19:23:40.974064Z",
   "risk_state": {
-    "score": 51,
+    "score": 53,
     "label": "Neutral",
     "drivers": [
       {
@@ -385,10 +385,10 @@
           "items": [
             {
               "name": "Initial Claims",
-              "value": 202000.0,
-              "delta": -9000.0,
-              "z": -0.7347,
-              "signal": "green",
+              "value": 219000.0,
+              "delta": 16000.0,
+              "z": -0.3199,
+              "signal": "neutral",
               "source": "fred",
               "id": "ICSA"
             }
