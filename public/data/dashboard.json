@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-04-14T19:38:57.932293Z",
+  "last_updated_utc": "2026-04-15T19:41:11.562503Z",
   "risk_state": {
-    "score": 53,
+    "score": 54,
     "label": "Neutral",
     "drivers": [
       {
@@ -143,9 +143,9 @@
           "items": [
             {
               "name": "PL 10Y Gov Yield",
-              "value": 4.99,
-              "delta": -0.11,
-              "z": 0.3531,
+              "value": null,
+              "delta": null,
+              "z": null,
               "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01PLM156N"
