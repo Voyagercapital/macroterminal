@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-04-26T19:11:16.404446Z",
+  "last_updated_utc": "2026-04-27T19:45:55.831260Z",
   "risk_state": {
-    "score": 53,
+    "score": 49,
     "label": "Neutral",
     "drivers": [
       {
@@ -32,15 +32,6 @@
         "id": "DGS2"
       },
       {
-        "name": "US CPI",
-        "value": 330.293,
-        "delta": 2.833,
-        "z": 2.2946,
-        "signal": "red",
-        "source": "fred",
-        "id": "CPIAUCSL"
-      },
-      {
         "name": "AU 10Y Gov Yield",
         "value": 4.9,
         "delta": 0.142,
@@ -59,15 +50,6 @@
         "id": "IRLTLT01CZM156N"
       },
       {
-        "name": "Fed Funds",
-        "value": 3.64,
-        "delta": 0.0,
-        "z": 0.9202,
-        "signal": "amber",
-        "source": "fred",
-        "id": "FEDFUNDS"
-      },
-      {
         "name": "HU 10Y Gov Yield",
         "value": 7.13,
         "delta": 0.65,
@@ -75,6 +57,24 @@
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01HUM156N"
+      },
+      {
+        "name": "PL 10Y Gov Yield",
+        "value": 5.58,
+        "delta": 0.59,
+        "z": 0.7339,
+        "signal": "amber",
+        "source": "fred",
+        "id": "IRLTLT01PLM156N"
+      },
+      {
+        "name": "US 10s2s",
+        "value": 1.48,
+        "delta": 0.01,
+        "z": 1.4388,
+        "signal": "amber",
+        "source": "fred",
+        "id": "T10Y2Y"
       }
     ]
   },
@@ -226,8 +226,8 @@
             {
               "name": "US HY OAS",
               "value": 2.86,
-              "delta": 0.02,
-              "z": -0.6078,
+              "delta": 0.0,
+              "z": -0.602,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -399,10 +399,10 @@
           "items": [
             {
               "name": "US CPI",
-              "value": 330.293,
-              "delta": 2.833,
-              "z": 2.2946,
-              "signal": "red",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
               "source": "fred",
               "id": "CPIAUCSL"
             }
@@ -413,10 +413,10 @@
           "items": [
             {
               "name": "Fed Funds",
-              "value": 3.64,
-              "delta": 0.0,
-              "z": 0.9202,
-              "signal": "amber",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
               "source": "fred",
               "id": "FEDFUNDS"
             }
