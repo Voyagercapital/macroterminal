@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-05-12T20:05:20.633256Z",
+  "last_updated_utc": "2026-05-13T20:06:33.258069Z",
   "risk_state": {
-    "score": 58,
+    "score": 51,
     "label": "Neutral",
     "drivers": [
       {
@@ -30,6 +30,15 @@
         "signal": "red",
         "source": "fred",
         "id": "DGS2"
+      },
+      {
+        "name": "US CPI",
+        "value": 332.407,
+        "delta": 2.114,
+        "z": 2.3228,
+        "signal": "red",
+        "source": "fred",
+        "id": "CPIAUCSL"
       },
       {
         "name": "AU 10Y Gov Yield",
@@ -66,15 +75,6 @@
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01HUM156N"
-      },
-      {
-        "name": "PL 10Y Gov Yield",
-        "value": 5.58,
-        "delta": 0.59,
-        "z": 0.7339,
-        "signal": "amber",
-        "source": "fred",
-        "id": "IRLTLT01PLM156N"
       }
     ]
   },
@@ -211,9 +211,9 @@
           "items": [
             {
               "name": "VIX",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 15.12,
+              "delta": -0.19,
+              "z": 0.3619,
               "signal": "neutral",
               "source": "fred",
               "id": "VIXCLS"
@@ -225,10 +225,10 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 2.82,
+              "delta": 0.03,
+              "z": -0.7606,
+              "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
             }
@@ -353,9 +353,9 @@
           "items": [
             {
               "name": "US 10Y",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 7.45,
+              "delta": 0.0,
+              "z": -0.1568,
               "signal": "neutral",
               "source": "fred",
               "id": "DGS10"
@@ -371,10 +371,10 @@
             },
             {
               "name": "US 10s2s",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 1.48,
+              "delta": 0.01,
+              "z": 1.4388,
+              "signal": "amber",
               "source": "fred",
               "id": "T10Y2Y"
             }
@@ -399,10 +399,10 @@
           "items": [
             {
               "name": "US CPI",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 332.407,
+              "delta": 2.114,
+              "z": 2.3228,
+              "signal": "red",
               "source": "fred",
               "id": "CPIAUCSL"
             }
