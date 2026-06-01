@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-05-31T19:39:03.312839Z",
+  "last_updated_utc": "2026-06-01T21:42:41.640508Z",
   "risk_state": {
-    "score": 50,
+    "score": 47,
     "label": "Neutral",
     "drivers": [
       {
@@ -32,15 +32,6 @@
         "id": "IRLTLT01AUM156N"
       },
       {
-        "name": "CZ 10Y Gov Yield",
-        "value": 4.7236,
-        "delta": 0.3536,
-        "z": 1.2218,
-        "signal": "amber",
-        "source": "fred",
-        "id": "IRLTLT01CZM156N"
-      },
-      {
         "name": "PL 10Y Gov Yield",
         "value": 5.58,
         "delta": 0.0,
@@ -51,12 +42,21 @@
       },
       {
         "name": "CN 3M Tsy Yield",
+        "value": 2.88,
+        "delta": 0.15,
+        "z": -0.4365,
+        "signal": "neutral",
+        "source": "fred",
+        "id": "IR3TTS01CNM156N"
+      },
+      {
+        "name": "CZ 10Y Gov Yield",
         "value": null,
         "delta": null,
         "z": null,
         "signal": "neutral",
         "source": "fred",
-        "id": "IR3TTS01CNM156N"
+        "id": "IRLTLT01CZM156N"
       },
       {
         "name": "EA 10Y Gov Yield",
@@ -118,9 +118,9 @@
           "items": [
             {
               "name": "CN 3M Tsy Yield",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 2.88,
+              "delta": 0.15,
+              "z": -0.4365,
               "signal": "neutral",
               "source": "fred",
               "id": "IR3TTS01CNM156N"
@@ -152,10 +152,10 @@
             },
             {
               "name": "CZ 10Y Gov Yield",
-              "value": 4.7236,
-              "delta": 0.3536,
-              "z": 1.2218,
-              "signal": "amber",
+              "value": null,
+              "delta": null,
+              "z": null,
+              "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01CZM156N"
             },
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.72,
-              "delta": 0.01,
-              "z": -1.3258,
+              "value": 2.74,
+              "delta": 0.02,
+              "z": -1.1751,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
