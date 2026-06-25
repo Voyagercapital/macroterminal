@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-06-24T20:02:16.540230Z",
+  "last_updated_utc": "2026-06-25T20:20:03.523292Z",
   "risk_state": {
     "score": 53,
     "label": "Neutral",
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.71,
-              "delta": 0.06,
-              "z": -1.2192,
+              "value": 2.76,
+              "delta": 0.05,
+              "z": -0.8902,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -385,9 +385,9 @@
           "items": [
             {
               "name": "Initial Claims",
-              "value": 226000.0,
-              "delta": -4000.0,
-              "z": 0.0339,
+              "value": 215000.0,
+              "delta": -12000.0,
+              "z": -0.3904,
               "signal": "neutral",
               "source": "fred",
               "id": "ICSA"
