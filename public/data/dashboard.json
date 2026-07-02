@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-01T20:07:47.775672Z",
+  "last_updated_utc": "2026-07-02T19:46:15.407108Z",
   "risk_state": {
     "score": 53,
     "label": "Neutral",
@@ -61,8 +61,8 @@
       {
         "name": "Fed Funds",
         "value": 3.63,
-        "delta": -0.01,
-        "z": 0.9102,
+        "delta": 0.0,
+        "z": 0.9082,
         "signal": "amber",
         "source": "fred",
         "id": "FEDFUNDS"
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.75,
-              "delta": -0.05,
-              "z": -0.9346,
+              "value": 2.74,
+              "delta": -0.01,
+              "z": -0.9927,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -386,8 +386,8 @@
             {
               "name": "Initial Claims",
               "value": 215000.0,
-              "delta": -12000.0,
-              "z": -0.3904,
+              "delta": -1000.0,
+              "z": -0.3902,
               "signal": "neutral",
               "source": "fred",
               "id": "ICSA"
@@ -414,8 +414,8 @@
             {
               "name": "Fed Funds",
               "value": 3.63,
-              "delta": -0.01,
-              "z": 0.9102,
+              "delta": 0.0,
+              "z": 0.9082,
               "signal": "amber",
               "source": "fred",
               "id": "FEDFUNDS"
