@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-07-15T19:34:44.119546Z",
+  "last_updated_utc": "2026-07-16T19:31:40.993532Z",
   "risk_state": {
-    "score": 52,
+    "score": 49,
     "label": "Neutral",
     "drivers": [
       {
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.72,
-              "delta": 0.03,
-              "z": -1.061,
+              "value": 2.71,
+              "delta": -0.01,
+              "z": -1.1174,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -385,10 +385,10 @@
           "items": [
             {
               "name": "Initial Claims",
-              "value": null,
-              "delta": null,
-              "z": null,
-              "signal": "neutral",
+              "value": 208000.0,
+              "delta": -8000.0,
+              "z": -0.7243,
+              "signal": "green",
               "source": "fred",
               "id": "ICSA"
             }
