@@ -1,14 +1,14 @@
 {
-  "last_updated_utc": "2026-07-16T19:31:40.993532Z",
+  "last_updated_utc": "2026-07-17T19:29:33.681164Z",
   "risk_state": {
     "score": 49,
     "label": "Neutral",
     "drivers": [
       {
         "name": "JP 10Y Gov Yield",
-        "value": 2.65,
-        "delta": 0.135,
-        "z": 2.8669,
+        "value": 2.67,
+        "delta": 0.02,
+        "z": 2.8431,
         "signal": "red",
         "source": "fred",
         "id": "IRLTLT01JPM156N"
@@ -33,18 +33,18 @@
       },
       {
         "name": "AU 10Y Gov Yield",
-        "value": 4.99,
-        "delta": 0.021,
-        "z": 0.8301,
+        "value": 4.831,
+        "delta": -0.151,
+        "z": 0.7258,
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01AUM156N"
       },
       {
         "name": "CZ 10Y Gov Yield",
-        "value": 4.7383,
-        "delta": 0.0147,
-        "z": 1.2257,
+        "value": 4.7005,
+        "delta": -0.1852,
+        "z": 1.1861,
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01CZM156N"
@@ -69,9 +69,9 @@
       },
       {
         "name": "PL 10Y Gov Yield",
-        "value": 5.74,
-        "delta": 0.16,
-        "z": 0.8353,
+        "value": 5.51,
+        "delta": -0.23,
+        "z": 0.6849,
         "signal": "amber",
         "source": "fred",
         "id": "IRLTLT01PLM156N"
@@ -93,9 +93,9 @@
           "items": [
             {
               "name": "AU 10Y Gov Yield",
-              "value": 4.99,
-              "delta": 0.021,
-              "z": 0.8301,
+              "value": 4.831,
+              "delta": -0.151,
+              "z": 0.7258,
               "signal": "amber",
               "source": "fred",
               "id": "IRLTLT01AUM156N"
@@ -143,27 +143,27 @@
           "items": [
             {
               "name": "PL 10Y Gov Yield",
-              "value": 5.74,
-              "delta": 0.16,
-              "z": 0.8353,
+              "value": 5.51,
+              "delta": -0.23,
+              "z": 0.6849,
               "signal": "amber",
               "source": "fred",
               "id": "IRLTLT01PLM156N"
             },
             {
               "name": "CZ 10Y Gov Yield",
-              "value": 4.7383,
-              "delta": 0.0147,
-              "z": 1.2257,
+              "value": 4.7005,
+              "delta": -0.1852,
+              "z": 1.1861,
               "signal": "amber",
               "source": "fred",
               "id": "IRLTLT01CZM156N"
             },
             {
               "name": "HU 10Y Gov Yield",
-              "value": 5.65,
-              "delta": -0.62,
-              "z": -0.0284,
+              "value": 5.26,
+              "delta": -0.39,
+              "z": -0.1983,
               "signal": "neutral",
               "source": "fred",
               "id": "IRLTLT01HUM156N"
@@ -226,8 +226,8 @@
             {
               "name": "US HY OAS",
               "value": 2.71,
-              "delta": -0.01,
-              "z": -1.1174,
+              "delta": 0.0,
+              "z": -1.1093,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -289,9 +289,9 @@
           "items": [
             {
               "name": "JP 10Y Gov Yield",
-              "value": 2.65,
-              "delta": 0.135,
-              "z": 2.8669,
+              "value": 2.67,
+              "delta": 0.02,
+              "z": 2.8431,
               "signal": "red",
               "source": "fred",
               "id": "IRLTLT01JPM156N"
