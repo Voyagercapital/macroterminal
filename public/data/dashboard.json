@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-08-03T19:52:58.008389Z",
+  "last_updated_utc": "2026-08-04T19:51:50.656550Z",
   "risk_state": {
-    "score": 53,
+    "score": 49,
     "label": "Neutral",
     "drivers": [
       {
@@ -53,7 +53,7 @@
         "name": "Fed Funds",
         "value": 3.63,
         "delta": 0.0,
-        "z": 0.9082,
+        "z": 0.9069,
         "signal": "amber",
         "source": "fred",
         "id": "FEDFUNDS"
@@ -225,10 +225,10 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.84,
-              "delta": -0.03,
-              "z": -0.2476,
-              "signal": "neutral",
+              "value": 2.78,
+              "delta": -0.07,
+              "z": -0.617,
+              "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
             }
@@ -415,7 +415,7 @@
               "name": "Fed Funds",
               "value": 3.63,
               "delta": 0.0,
-              "z": 0.9082,
+              "z": 0.9069,
               "signal": "amber",
               "source": "fred",
               "id": "FEDFUNDS"
