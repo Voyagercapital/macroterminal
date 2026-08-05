@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-04T19:51:50.656550Z",
+  "last_updated_utc": "2026-08-05T19:50:10.929482Z",
   "risk_state": {
     "score": 49,
     "label": "Neutral",
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.78,
-              "delta": -0.07,
-              "z": -0.617,
+              "value": 2.73,
+              "delta": -0.05,
+              "z": -0.9216,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
