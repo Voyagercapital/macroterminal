@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-09T18:56:50.389446Z",
+  "last_updated_utc": "2026-08-10T19:11:19.444692Z",
   "risk_state": {
     "score": 49,
     "label": "Neutral",
@@ -60,9 +60,9 @@
       },
       {
         "name": "Global EPU",
-        "value": 278.2301,
-        "delta": -43.0844,
-        "z": 1.1275,
+        "value": 241.6905,
+        "delta": -41.025,
+        "z": 0.719,
         "signal": "amber",
         "source": "fred",
         "id": "GEPUCURRENT"
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.71,
-              "delta": -0.04,
-              "z": -1.0337,
+              "value": 2.7,
+              "delta": -0.01,
+              "z": -1.0911,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -239,9 +239,9 @@
           "items": [
             {
               "name": "Global EPU",
-              "value": 278.2301,
-              "delta": -43.0844,
-              "z": 1.1275,
+              "value": 241.6905,
+              "delta": -41.025,
+              "z": 0.719,
               "signal": "amber",
               "source": "fred",
               "id": "GEPUCURRENT"
