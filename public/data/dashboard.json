@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-08-17T18:54:31.942940Z",
+  "last_updated_utc": "2026-08-18T18:52:49.959370Z",
   "risk_state": {
-    "score": 49,
+    "score": 47,
     "label": "Neutral",
     "drivers": [
       {
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.67,
-              "delta": -0.04,
-              "z": -1.2545,
+              "value": 2.7,
+              "delta": 0.03,
+              "z": -1.0649,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -264,10 +264,10 @@
           "items": [
             {
               "name": "IN 10Y Gov Yield",
-              "value": 7.02,
-              "delta": -0.03,
-              "z": -0.3419,
-              "signal": "neutral",
+              "value": 6.89,
+              "delta": -0.13,
+              "z": -0.5133,
+              "signal": "green",
               "source": "fred",
               "id": "INDIRLTLT01STM"
             }
