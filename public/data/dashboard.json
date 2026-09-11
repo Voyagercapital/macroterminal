@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-09-10T20:48:14.500951Z",
+  "last_updated_utc": "2026-09-11T20:54:13.827235Z",
   "risk_state": {
     "score": 47,
     "label": "Neutral",
@@ -24,9 +24,9 @@
       },
       {
         "name": "US CPI",
-        "value": 332.813,
-        "delta": 0.245,
-        "z": 2.2472,
+        "value": 334.131,
+        "delta": 1.318,
+        "z": 2.2544,
         "signal": "red",
         "source": "fred",
         "id": "CPIAUCSL"
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 2.71,
-              "delta": 0.04,
-              "z": -0.9263,
+              "value": 2.7,
+              "delta": -0.01,
+              "z": -0.9829,
               "signal": "green",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
@@ -399,9 +399,9 @@
           "items": [
             {
               "name": "US CPI",
-              "value": 332.813,
-              "delta": 0.245,
-              "z": 2.2472,
+              "value": 334.131,
+              "delta": 1.318,
+              "z": 2.2544,
               "signal": "red",
               "source": "fred",
               "id": "CPIAUCSL"
