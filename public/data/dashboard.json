@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-09-11T20:54:13.827235Z",
+  "last_updated_utc": "2026-09-12T20:30:38.184338Z",
   "risk_state": {
-    "score": 47,
+    "score": 48,
     "label": "Neutral",
     "drivers": [
       {
@@ -353,9 +353,9 @@
           "items": [
             {
               "name": "US 10Y",
-              "value": 7.45,
-              "delta": 0.0,
-              "z": -0.1568,
+              "value": null,
+              "delta": null,
+              "z": null,
               "signal": "neutral",
               "source": "fred",
               "id": "DGS10"
