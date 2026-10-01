@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-09-30T22:10:50.063480Z",
+  "last_updated_utc": "2026-10-01T22:37:20.932873Z",
   "risk_state": {
-    "score": 54,
+    "score": 58,
     "label": "Neutral",
     "drivers": [
       {
@@ -32,6 +32,15 @@
         "id": "CPIAUCSL"
       },
       {
+        "name": "US HY OAS",
+        "value": 3.12,
+        "delta": 0.04,
+        "z": 1.5215,
+        "signal": "red",
+        "source": "fred",
+        "id": "BAMLH0A0HYM2"
+      },
+      {
         "name": "AU 10Y Gov Yield",
         "value": 5.015,
         "delta": 0.096,
@@ -51,9 +60,9 @@
       },
       {
         "name": "Fed Funds",
-        "value": 3.63,
-        "delta": 0.0,
-        "z": 0.9064,
+        "value": 3.75,
+        "delta": 0.12,
+        "z": 0.9664,
         "signal": "amber",
         "source": "fred",
         "id": "FEDFUNDS"
@@ -66,15 +75,6 @@
         "signal": "amber",
         "source": "fred",
         "id": "GEPUCURRENT"
-      },
-      {
-        "name": "PL 10Y Gov Yield",
-        "value": 5.5,
-        "delta": -0.01,
-        "z": 0.6758,
-        "signal": "amber",
-        "source": "fred",
-        "id": "IRLTLT01PLM156N"
       }
     ]
   },
@@ -225,10 +225,10 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 3.08,
-              "delta": 0.06,
-              "z": 1.2955,
-              "signal": "amber",
+              "value": 3.12,
+              "delta": 0.04,
+              "z": 1.5215,
+              "signal": "red",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
             }
@@ -387,7 +387,7 @@
               "name": "Initial Claims",
               "value": 197000.0,
               "delta": -1000.0,
-              "z": -1.7005,
+              "z": -1.6849,
               "signal": "green",
               "source": "fred",
               "id": "ICSA"
@@ -413,9 +413,9 @@
           "items": [
             {
               "name": "Fed Funds",
-              "value": 3.63,
-              "delta": 0.0,
-              "z": 0.9064,
+              "value": 3.75,
+              "delta": 0.12,
+              "z": 0.9664,
               "signal": "amber",
               "source": "fred",
               "id": "FEDFUNDS"
