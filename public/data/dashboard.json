@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-01T22:37:20.932873Z",
+  "last_updated_utc": "2026-10-02T22:08:28.175084Z",
   "risk_state": {
     "score": 58,
     "label": "Neutral",
@@ -33,9 +33,9 @@
       },
       {
         "name": "US HY OAS",
-        "value": 3.12,
-        "delta": 0.04,
-        "z": 1.5215,
+        "value": 3.24,
+        "delta": 0.12,
+        "z": 2.2056,
         "signal": "red",
         "source": "fred",
         "id": "BAMLH0A0HYM2"
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 3.12,
-              "delta": 0.04,
-              "z": 1.5215,
+              "value": 3.24,
+              "delta": 0.12,
+              "z": 2.2056,
               "signal": "red",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
