@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-10-15T21:18:14.728921Z",
+  "last_updated_utc": "2026-10-16T21:01:57.329281Z",
   "risk_state": {
-    "score": 60,
+    "score": 63,
     "label": "Caution",
     "drivers": [
       {
@@ -33,9 +33,9 @@
       },
       {
         "name": "US HY OAS",
-        "value": 3.25,
-        "delta": 0.09,
-        "z": 2.1451,
+        "value": 3.23,
+        "delta": -0.02,
+        "z": 2.0076,
         "signal": "red",
         "source": "fred",
         "id": "BAMLH0A0HYM2"
@@ -211,9 +211,9 @@
           "items": [
             {
               "name": "VIX",
-              "value": 15.12,
-              "delta": -0.19,
-              "z": 0.3619,
+              "value": null,
+              "delta": null,
+              "z": null,
               "signal": "neutral",
               "source": "fred",
               "id": "VIXCLS"
@@ -225,9 +225,9 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 3.25,
-              "delta": 0.09,
-              "z": 2.1451,
+              "value": 3.23,
+              "delta": -0.02,
+              "z": 2.0076,
               "signal": "red",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
