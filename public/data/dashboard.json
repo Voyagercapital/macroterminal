@@ -1,7 +1,7 @@
 {
-  "last_updated_utc": "2026-10-16T21:01:57.329281Z",
+  "last_updated_utc": "2026-10-17T20:30:38.928597Z",
   "risk_state": {
-    "score": 63,
+    "score": 60,
     "label": "Caution",
     "drivers": [
       {
@@ -211,9 +211,9 @@
           "items": [
             {
               "name": "VIX",
-              "value": null,
-              "delta": null,
-              "z": null,
+              "value": 15.12,
+              "delta": -0.19,
+              "z": 0.3619,
               "signal": "neutral",
               "source": "fred",
               "id": "VIXCLS"
