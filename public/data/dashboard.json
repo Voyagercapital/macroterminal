@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-10-28T22:30:24.095258Z",
+  "last_updated_utc": "2026-10-29T22:41:44.790842Z",
   "risk_state": {
-    "score": 60,
-    "label": "Caution",
+    "score": 56,
+    "label": "Neutral",
     "drivers": [
       {
         "name": "JP 10Y Gov Yield",
@@ -30,15 +30,6 @@
         "signal": "red",
         "source": "fred",
         "id": "CPIAUCSL"
-      },
-      {
-        "name": "US HY OAS",
-        "value": 3.18,
-        "delta": -0.12,
-        "z": 1.5695,
-        "signal": "red",
-        "source": "fred",
-        "id": "BAMLH0A0HYM2"
       },
       {
         "name": "AU 10Y Gov Yield",
@@ -75,6 +66,15 @@
         "signal": "amber",
         "source": "fred",
         "id": "GEPUCURRENT"
+      },
+      {
+        "name": "PL 10Y Gov Yield",
+        "value": 6.23,
+        "delta": 0.42,
+        "z": 1.1349,
+        "signal": "amber",
+        "source": "fred",
+        "id": "IRLTLT01PLM156N"
       }
     ]
   },
@@ -225,10 +225,10 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 3.18,
-              "delta": -0.12,
-              "z": 1.5695,
-              "signal": "red",
+              "value": 3.14,
+              "delta": -0.04,
+              "z": 1.355,
+              "signal": "amber",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
             }
@@ -386,8 +386,8 @@
             {
               "name": "Initial Claims",
               "value": 194000.0,
-              "delta": -6000.0,
-              "z": -1.8702,
+              "delta": -1000.0,
+              "z": -1.852,
               "signal": "green",
               "source": "fred",
               "id": "ICSA"
