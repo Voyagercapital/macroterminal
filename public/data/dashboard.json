@@ -1,8 +1,8 @@
 {
-  "last_updated_utc": "2026-10-29T22:41:44.790842Z",
+  "last_updated_utc": "2026-10-30T22:14:01.154428Z",
   "risk_state": {
-    "score": 56,
-    "label": "Neutral",
+    "score": 60,
+    "label": "Caution",
     "drivers": [
       {
         "name": "JP 10Y Gov Yield",
@@ -30,6 +30,15 @@
         "signal": "red",
         "source": "fred",
         "id": "CPIAUCSL"
+      },
+      {
+        "name": "US HY OAS",
+        "value": 3.26,
+        "delta": 0.12,
+        "z": 1.9648,
+        "signal": "red",
+        "source": "fred",
+        "id": "BAMLH0A0HYM2"
       },
       {
         "name": "AU 10Y Gov Yield",
@@ -66,15 +75,6 @@
         "signal": "amber",
         "source": "fred",
         "id": "GEPUCURRENT"
-      },
-      {
-        "name": "PL 10Y Gov Yield",
-        "value": 6.23,
-        "delta": 0.42,
-        "z": 1.1349,
-        "signal": "amber",
-        "source": "fred",
-        "id": "IRLTLT01PLM156N"
       }
     ]
   },
@@ -225,10 +225,10 @@
           "items": [
             {
               "name": "US HY OAS",
-              "value": 3.14,
-              "delta": -0.04,
-              "z": 1.355,
-              "signal": "amber",
+              "value": 3.26,
+              "delta": 0.12,
+              "z": 1.9648,
+              "signal": "red",
               "source": "fred",
               "id": "BAMLH0A0HYM2"
             }
